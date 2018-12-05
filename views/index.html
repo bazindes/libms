@@ -72,7 +72,7 @@
                 <li>Search</li>
                 <li>Borrow & Return</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-outline-primary">Get started</button>
+              <button type="button" class="btn btn-lg btn-block btn-outline-primary" onclick="items()">Get started</button>
             </div>
           </div>
           <div class="card mb-4 shadow-sm rooms">
@@ -165,6 +165,9 @@
     }
     function users(){
       window.location.assign("http://127.0.0.1:3000/users")
+    }
+    function items(){
+      window.location.assign("http://127.0.0.1:3000/items")
     }
   </script>
 </html>
